@@ -26,6 +26,8 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - `nvm install 8.16.0`
 ### The latest 8.16 patch:
 - `nvm install 8.16`
+### Switching between Versions
+- `nvm use 8.16.0`
 
 [more details](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
 
