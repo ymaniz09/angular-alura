@@ -31,7 +31,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 [more details](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
 
-
+# Running the application:
 ## This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
 ## Development server
@@ -57,3 +57,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+# Running the API server:
+## Ensure you're using the correct version of node:
+- Inside api_server folder run:
+- `nvm use 8.16.0`
+
+## You'll need to install all the project dependencies:
+- `npm install`
+
+## Development server
+
+Run `npm run`. Navigate to `http://localhost:3000/flavio/photos`.
