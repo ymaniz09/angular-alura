@@ -2,8 +2,8 @@
 Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), disponível na plataforma da Alura.
 
 ## Angular parte 1: Fundamentos:
-- [ ] Bem começado, metade feito
-- [ ] Criando o primeiro componente
+- [X] Bem começado, metade feito
+- [X] Criando o primeiro componente
 - [ ] Integração com Web API's
 - [ ] Single Page Applications e rotas
 - [ ] Novo componente, novos conceitos
