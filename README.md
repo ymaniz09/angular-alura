@@ -9,8 +9,8 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Bem começado, metade feito
 - [X] Criando o primeiro componente
 - [X] Integração com Web API's
-- [ ] Single Page Applications e rotas
-- [ ] Novo componente, novos conceitos
+- [X] Single Page Applications e rotas
+- [X] Novo componente, novos conceitos
 - [ ] Melhorando a experiência do usuário
 - [ ] Lapidando ainda mais nossa aplicação
 
