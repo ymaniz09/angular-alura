@@ -12,7 +12,15 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Single Page Applications e rotas
 - [X] Novo componente, novos conceitos
 - [X] Melhorando a experiência do usuário
-- [ ] Lapidando ainda mais nossa aplicação
+- [X] Lapidando ainda mais nossa aplicação
+
+## Angular parte 2: Autenticação, Forms e lazy loading
+
+- [ ] O componente para login
+- [ ] Autenticação e o papel do token
+- [ ] Usuário logado e proteção de rotas
+- [ ] Registro de novos usuários
+- [ ] Rotas filhas e lazy loading
 
 ## Project setup
 
