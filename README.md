@@ -16,7 +16,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 ## Angular parte 2: Autenticação, Forms e lazy loading
 
-- [ ] O componente para login
+- [X] O componente para login
 - [ ] Autenticação e o papel do token
 - [ ] Usuário logado e proteção de rotas
 - [ ] Registro de novos usuários
