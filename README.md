@@ -18,7 +18,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 - [X] O componente para login
 - [X] Autenticação e o papel do token
-- [ ] Usuário logado e proteção de rotas
+- [X] Usuário logado e proteção de rotas
 - [ ] Registro de novos usuários
 - [ ] Rotas filhas e lazy loading
 
