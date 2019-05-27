@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -6,6 +6,7 @@ import { lowerCaseValidator } from 'src/app/shared/validators/lower-case.validat
 import { UserNotTakenValidatorService } from './user-not-taken.validator.service';
 import { NewUser } from './new-user';
 import { SignUpService } from './sign-up.service';
+import { PlatformDetectorService } from 'src/app/core/platform-detector/platform-detector.service';
 
 @Component({
   selector: 'app-sign-up',
@@ -15,12 +16,14 @@ import { SignUpService } from './sign-up.service';
 export class SignUpComponent implements OnInit {
 
   signUpForm: FormGroup;
+  @ViewChild('inputEmail') emailInput: ElementRef<HTMLInputElement>;
 
   constructor(
     private formBuilder: FormBuilder,
     private userNotTakenValidatorService: UserNotTakenValidatorService,
     private signUpService: SignUpService,
-    private router: Router
+    private router: Router,
+    private platformDetectorService: PlatformDetectorService
   ) { }
 
   ngOnInit() {
@@ -55,17 +58,22 @@ export class SignUpComponent implements OnInit {
         ]
       ]
     });
+
+    if (this.platformDetectorService.isPlatformBrowser()) {
+      this.emailInput.nativeElement.focus();
+    }
+
   }
 
   signUp() {
     const newUser = this.signUpForm.getRawValue() as NewUser;
 
     this.signUpService
-        .signUp(newUser)
-        .subscribe(
-            () => this.router.navigate(['']),
-            err => console.log(err)
-        );
+      .signUp(newUser)
+      .subscribe(
+        () => this.router.navigate(['']),
+        err => console.log(err)
+      );
   }
 
 }
