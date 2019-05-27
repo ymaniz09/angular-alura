@@ -6,6 +6,7 @@ import { VMessageComponent } from './components/v-message/v-message.component';
   imports: [
     CommonModule
   ],
-  declarations: [VMessageComponent]
+  declarations: [VMessageComponent],
+  exports: [VMessageComponent]
 })
 export class SharedModule { }
