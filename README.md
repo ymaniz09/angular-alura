@@ -22,6 +22,17 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Registro de novos usuários
 - [X] Rotas filhas e lazy loading
 
+## Angular parte 3: upload, build e novos componentes
+
+- [ ] Upload de fotos
+- [ ] Lapidando o upload
+- [ ] Detalhes da foto
+- [ ] Comentando fotos
+- [ ] Remoção de fotos e novos componentes
+- [ ] Componente de notificação
+- [ ] Curtindo fotos
+- [ ] Diferenciando ambientes de deploy
+
 ## Project setup
 
 ## Installing Multiple Versions of Node.js Using [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm)
