@@ -7,6 +7,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeComponent } from './home.component';
 import { SharedModule } from '../shared/shared.module';
+import { HomeRoutingModule } from './home.routing.module';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SharedModule } from '../shared/shared.module';
     FormsModule,
     ReactiveFormsModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    HomeRoutingModule
   ],
   declarations: [SignInComponent, SignUpComponent, HomeComponent]
 })
