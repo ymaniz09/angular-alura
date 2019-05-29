@@ -33,13 +33,13 @@ const routes: Routes = [
         canActivate: [AuthenticationGuard]
     },
     {
-        path: '**',
-        component: NotFoundComponent
+        component: PhotoDetailsComponent,
+        path: 'p/:photoId',
     },
     {
-        component: PhotoDetailsComponent
-        path: 'p/:photoId', // nova rota
-    },
+        path: '**',
+        component: NotFoundComponent
+    }
 ];
 
 @NgModule({
