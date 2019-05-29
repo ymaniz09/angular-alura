@@ -24,8 +24,8 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 ## Angular parte 3: upload, build e novos componentes
 
-- [ ] Upload de fotos
-- [ ] Lapidando o upload
+- [X] Upload de fotos
+- [X] Lapidando o upload
 - [ ] Detalhes da foto
 - [ ] Comentando fotos
 - [ ] Remoção de fotos e novos componentes
