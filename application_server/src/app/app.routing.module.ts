@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PhotoListComponent } from './photos/photo-list/photo-list.component';
 import { PhotoFormComponent } from './photos/photo-form/photo-form.component';
 import { NotFoundComponent } from './errors/not-found/not-found.component';
+import { PhotoDetailsComponent } from './photos/photo-details/photo-details.component';
 import { PhotoListResolver } from './photos/photo-list/photo-list.resolver';
 import { AuthenticationGuard } from './core/auth/authentication.guard';
 
@@ -34,7 +35,11 @@ const routes: Routes = [
     {
         path: '**',
         component: NotFoundComponent
-    }
+    },
+    {
+        component: PhotoDetailsComponent
+        path: 'p/:photoId', // nova rota
+    },
 ];
 
 @NgModule({
