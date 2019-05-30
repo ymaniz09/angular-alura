@@ -28,7 +28,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Lapidando o upload
 - [X] Detalhes da foto
 - [X] Comentando fotos
-- [ ] Remoção de fotos e novos componentes
+- [X] Remoção de fotos e novos componentes
 - [ ] Componente de notificação
 - [ ] Curtindo fotos
 - [ ] Diferenciando ambientes de deploy
