@@ -34,7 +34,6 @@ export class PhotoFormComponent implements OnInit {
     this.photoService
       .upload(description, allowComments, this.file)
       .subscribe(() => this.router.navigate(['']));
-
   }
 
   handleFile(file: File) {
@@ -44,6 +43,5 @@ export class PhotoFormComponent implements OnInit {
     reader.onload = (event: any) => this.preview = event.target.result;
 
     reader.readAsDataURL(file);
-
   }
 }

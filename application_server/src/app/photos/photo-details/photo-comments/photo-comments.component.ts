@@ -8,7 +8,7 @@ import { PhotoService } from '../../photo/photo.service';
 @Component({
     selector: 'app-photo-comments',
     templateUrl: './photo-comments.component.html'
-  })
+})
 export class PhotoCommentsComponent implements OnInit {
 
     @Input() photoId: number;
@@ -23,7 +23,15 @@ export class PhotoCommentsComponent implements OnInit {
 
         this.commentForm = this.formBuilder.group({
             comment: ['', [Validators.maxLength(300)]]
-          });
+        });
     }
 
+    saveComment() {
+        const comment = this.commentForm.get('comment').value as string;
+        this.photoService
+            .addComment(this.photoId, comment)
+            .subscribe(() => {
+                this.commentForm.reset();
+            });
+    }
 }

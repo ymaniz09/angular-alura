@@ -13,7 +13,7 @@
   </ul>
 
   <div class="mt-4">
-    <form [formGroup]="commentForm">
+    <form [formGroup]="commentForm" (submit)="saveComment()">
       <div class="input-group">
         <textarea formControlName="comment" class="form-control"></textarea>
         <div class="input-group-append">
