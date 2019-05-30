@@ -1,4 +1,4 @@
-<div *ngIf="comments$ | async as comments">
+<div *ngIf="(comments$ | async) as comments">
   <ul class="list-unstyled">
     <li *ngFor="let comment of comments">
       <a
@@ -12,12 +12,24 @@
     </li>
   </ul>
 
-  <form>
-    <div class="input-group">
-      <textarea class="form-control"></textarea>
-      <div class="input-group-append">
-        <button class="btn btn-primary pull-left">Publish</button>
+  <div class="mt-4">
+    <form [formGroup]="commentForm">
+      <div class="input-group">
+        <textarea formControlName="comment" class="form-control"></textarea>
+        <div class="input-group-append">
+          <button
+            [disabled]="commentForm.invalid"
+            class="btn btn-primary pull-left"
+          >
+            Publish
+          </button>
+        </div>
       </div>
-    </div>
-  </form>
+      <app-v-message
+        text="Maximum size allowed is 300"
+        *ngIf="commentForm.get('comment').errors?.maxlength"
+      >
+      </app-v-message>
+    </form>
+  </div>
 </div>
