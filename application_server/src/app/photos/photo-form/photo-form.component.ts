@@ -38,10 +38,8 @@ export class PhotoFormComponent implements OnInit {
 
   handleFile(file: File) {
     this.file = file;
-
     const reader = new FileReader();
     reader.onload = (event: any) => this.preview = event.target.result;
-
     reader.readAsDataURL(file);
   }
 }
