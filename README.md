@@ -6,32 +6,42 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 ## Angular parte 1: Fundamentos
 
-- [X] Bem começado, metade feito
-- [X] Criando o primeiro componente
-- [X] Integração com Web API's
-- [X] Single Page Applications e rotas
-- [X] Novo componente, novos conceitos
-- [X] Melhorando a experiência do usuário
-- [X] Lapidando ainda mais nossa aplicação
+- [x] Bem começado, metade feito
+- [x] Criando o primeiro componente
+- [x] Integração com Web API's
+- [x] Single Page Applications e rotas
+- [x] Novo componente, novos conceitos
+- [x] Melhorando a experiência do usuário
+- [x] Lapidando ainda mais nossa aplicação
 
 ## Angular parte 2: Autenticação, Forms e lazy loading
 
-- [X] O componente para login
-- [X] Autenticação e o papel do token
-- [X] Usuário logado e proteção de rotas
-- [X] Registro de novos usuários
-- [X] Rotas filhas e lazy loading
+- [x] O componente para login
+- [x] Autenticação e o papel do token
+- [x] Usuário logado e proteção de rotas
+- [x] Registro de novos usuários
+- [x] Rotas filhas e lazy loading
 
 ## Angular parte 3: upload, build e novos componentes
 
-- [X] Upload de fotos
-- [X] Lapidando o upload
-- [X] Detalhes da foto
-- [X] Comentando fotos
-- [X] Remoção de fotos e novos componentes
-- [X] Componente de notificação
-- [X] Curtindo fotos
-- [X] Diferenciando ambientes de deploy
+- [x] Upload de fotos
+- [x] Lapidando o upload
+- [x] Detalhes da foto
+- [x] Comentando fotos
+- [x] Remoção de fotos e novos componentes
+- [x] Componente de notificação
+- [x] Curtindo fotos
+- [x] Diferenciando ambientes de deploy
+
+## Angular parte 4: lapidando o projeto
+
+- [ ] Alteração do title
+- [ ] Upload e progresso
+- [ ] Indicador de trabalho
+- [ ] Menu da aplicação
+- [ ] Global error handler e log no server side
+- [ ] Um pouco mais sobre validação
+- [ ] Um pouco mais sobre navegação e rotas
 
 ## Project setup
 
