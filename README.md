@@ -35,8 +35,8 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 ## Angular parte 4: lapidando o projeto
 
-- [ ] Alteração do title
-- [ ] Upload e progresso
+- [X] Alteração do title
+- [X] Upload e progresso
 - [ ] Indicador de trabalho
 - [ ] Menu da aplicação
 - [ ] Global error handler e log no server side
