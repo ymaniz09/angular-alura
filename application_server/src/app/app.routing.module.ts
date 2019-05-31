@@ -37,8 +37,12 @@ const routes: Routes = [
         path: 'p/:photoId',
     },
     {
-        path: '**',
+        path: 'not-found',
         component: NotFoundComponent
+    },
+    {
+        path: '**',
+        redirectTo: 'not-found'
     }
 ];
 

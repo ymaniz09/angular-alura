@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AlertService } from './alert.service';
 import { Alert, AlertType } from './alert';
 
@@ -7,7 +7,7 @@ import { Alert, AlertType } from './alert';
   templateUrl: './alert.component.html',
   styleUrls: ['./alert.component.css']
 })
-export class AlertComponent implements OnInit {
+export class AlertComponent {
 
   @Input() timeout = 3000;
   alerts: Alert[] = [];
@@ -44,8 +44,4 @@ export class AlertComponent implements OnInit {
         return 'alert alert-info';
     }
   }
-
-  ngOnInit() {
-  }
-
 }

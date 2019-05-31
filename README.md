@@ -29,7 +29,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Detalhes da foto
 - [X] Comentando fotos
 - [X] Remoção de fotos e novos componentes
-- [ ] Componente de notificação
+- [X] Componente de notificação
 - [ ] Curtindo fotos
 - [ ] Diferenciando ambientes de deploy
 
