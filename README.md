@@ -31,7 +31,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Remoção de fotos e novos componentes
 - [X] Componente de notificação
 - [X] Curtindo fotos
-- [ ] Diferenciando ambientes de deploy
+- [X] Diferenciando ambientes de deploy
 
 ## Project setup
 
