@@ -1,5 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# database
+/api_server/uploads/
+/api_server/data.db
+
 # compiled output
 dist/
 /tmp
