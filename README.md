@@ -99,6 +99,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - `npm install`
 
+### Setup
+
+- You need to extract the file `data.db.zip` in api_server folder
+
 ### API server
 
 Run `npm run`. Navigate to `http://localhost:3000/flavio/photos`.
+
+### Users already stored
+
+- user: flavio password: 123
+- user: almeida password: 123
