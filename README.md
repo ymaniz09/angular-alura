@@ -115,9 +115,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### API server
 
-Run `npm run`. Navigate to `http://localhost:3000/flavio/photos`.
+Run `npm run`. Navigate to `http://localhost:3000/user/photos`.
 
 ### Users already stored
 
-- user: flavio password: 123
-- user: almeida password: 123
+- user: user password: password
+
