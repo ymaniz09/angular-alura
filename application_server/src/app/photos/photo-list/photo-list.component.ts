@@ -5,6 +5,7 @@ import { debounceTime } from 'rxjs/operators';
 
 import { Photo } from '../photo/photo';
 import { PhotoService } from '../photo/photo.service';
+import { LoadingService } from 'src/app/loading/loading.service';
 
 @Component({
   selector: 'app-photo-list',
@@ -21,7 +22,8 @@ export class PhotoListComponent implements OnInit {
 
   constructor(
     private activatedRout: ActivatedRoute,
-    private photoService: PhotoService) { }
+    private photoService: PhotoService
+  ) { }
 
   ngOnInit(): void {
     this.activatedRout.params.subscribe(params => {

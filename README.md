@@ -37,7 +37,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 - [X] Alteração do title
 - [X] Upload e progresso
-- [ ] Indicador de trabalho
+- [X] Indicador de trabalho
 - [ ] Menu da aplicação
 - [ ] Global error handler e log no server side
 - [ ] Um pouco mais sobre validação
@@ -60,7 +60,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 - `nvm install 8.16.0`
 
-### The latest 8.16 patch:
+### The latest 8.16 patch
 
 - `nvm install 8.16`
 
