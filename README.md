@@ -40,7 +40,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Indicador de trabalho
 - [X] Menu da aplicação
 - [X] Global error handler e log no server side
-- [ ] Um pouco mais sobre validação
+- [X] Um pouco mais sobre validação
 - [ ] Um pouco mais sobre navegação e rotas
 
 ## Project setup
@@ -120,3 +120,11 @@ Run `npm run`. Navigate to `http://localhost:3000/user/photos`.
 ### Users already stored
 
 - user: user password: password
+
+## Running the log server
+
+### First ensure you're using the correct version of node
+
+- Inside log_server folder run:
+- `nvm use 8.16.0`
+- Run `npm run`.
