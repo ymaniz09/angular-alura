@@ -41,7 +41,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Menu da aplicação
 - [X] Global error handler e log no server side
 - [X] Um pouco mais sobre validação
-- [ ] Um pouco mais sobre navegação e rotas
+- [X] Um pouco mais sobre navegação e rotas
 
 ## Project setup
 
