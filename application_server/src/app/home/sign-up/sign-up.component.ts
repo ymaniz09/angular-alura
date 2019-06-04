@@ -18,7 +18,7 @@ import { UserNamePassword } from './user-name-password.validator';
 export class SignUpComponent implements OnInit {
 
   signUpForm: FormGroup;
-  @ViewChild('inputEmail') emailInput: ElementRef<HTMLInputElement>;
+  @ViewChild('inputEmail', { static: true }) emailInput: ElementRef<HTMLInputElement>;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -61,8 +61,8 @@ export class SignUpComponent implements OnInit {
       ]
     },
       {
-      validator: UserNamePassword
-    });
+        validator: UserNamePassword
+      });
 
     if (this.platformDetectorService.isPlatformBrowser()) {
       this.emailInput.nativeElement.focus();

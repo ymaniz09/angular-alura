@@ -13,7 +13,7 @@ import { PlatformDetectorService } from 'src/app/core/platform-detector/platform
 export class SignInComponent implements OnInit {
 
   loginForm: FormGroup;
-  @ViewChild('userNameInput') userNameInput: ElementRef<HTMLInputElement>;
+  @ViewChild('userNameInput', { static: true }) userNameInput: ElementRef<HTMLInputElement>;
   fromUrl = '';
 
   constructor(
