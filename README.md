@@ -58,21 +58,21 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 
 ### Install Multiple Versions of Node.js
 
-- `nvm install 8.16.0`
+- `nvm install 10.9.0`
 
-### The latest 8.16 patch
+### The latest 10.9 patch
 
-- `nvm install 8.16`
+- `nvm install 10.9`
 
 ### Switching between Versions
 
-- `nvm use 8.16.0`
+- `nvm use 10.9.0`
 
 [more details](https://www.sitepoint.com/quick-tip-multiple-versions-node-nvm/)
 
 ## Running the application
 
-### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7
+### This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ### Development server
 
