@@ -39,7 +39,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Upload e progresso
 - [X] Indicador de trabalho
 - [X] Menu da aplicação
-- [ ] Global error handler e log no server side
+- [X] Global error handler e log no server side
 - [ ] Um pouco mais sobre validação
 - [ ] Um pouco mais sobre navegação e rotas
 
@@ -120,4 +120,3 @@ Run `npm run`. Navigate to `http://localhost:3000/user/photos`.
 ### Users already stored
 
 - user: user password: password
-
