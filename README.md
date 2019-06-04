@@ -38,7 +38,7 @@ Cursos da [formação Angular](https://cursos.alura.com.br/formacao-angular), di
 - [X] Alteração do title
 - [X] Upload e progresso
 - [X] Indicador de trabalho
-- [ ] Menu da aplicação
+- [X] Menu da aplicação
 - [ ] Global error handler e log no server side
 - [ ] Um pouco mais sobre validação
 - [ ] Um pouco mais sobre navegação e rotas
